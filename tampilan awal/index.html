@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>buat Icaa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+ 
+ body {
+            background-image: url("https://media.istockphoto.com/id/1419117748/photo/old-wall-texture-cement-dirty-gray-with-black-background-abstract-grey-and-silver-color.jpg?b=1&s=170667a&w=0&k=20&c=KI-m7WiMl2YDY5nSyAxxsta5ZPwjY1x6WwSCRdZq-VA=");
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            
+    </style>
+	<style type="text/css">
+
+		.container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+		}
+
+		.text {
+			font-size: 36px;
+			margin-bottom: 10px;
+		}
+
+		.btn {
+			padding: 10px 20px;
+			border: none;
+			background-color: #534b48;
+			color: white;
+			font-size: 18px;
+			cursor: pointer;
+            border-radius: 10%;
+			transition: background-color 0.3s ease-in-out;
+		}
+
+		.btn:hover {
+			background-color: #36302f;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="text">Halooo Icaaa</div>
+		<button class="btn" onclick="nextText()">Next</button>
+	</div>
+
+	<script type="text/javascript">
+		var texts = ["because today coincides with March 29th so......scroll down and click the next page to continue", "do you know what day is today?", "Today is a special day for someone", "why is it special?", "because today coincides on March 29th"];
+
+		var index = 0;
+
+        function nextText() {
+			index++;
+			if (index === texts.length) {
+				index = 0;
+			}
+			document.querySelector(".text").textContent = texts[index];
+		}
+	</script>
+</body>
+</html>
+
+<button>
+    <a href="file:///C:/xampp/htdocs/tampilan%20akhir/tampilan%20akhir.html">Next Page</a>
+    <style>   button {
+        background-color: white;
+        border: none;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-bottom: 0%;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background-color 0.5s;</style>
